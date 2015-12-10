@@ -1,4 +1,4 @@
 #!/bin/bash
 
-PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/boxen/homebrew/bin:$PATH"
 node $(dirname $0)/pre-commit.js
